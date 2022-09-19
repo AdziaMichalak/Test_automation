@@ -1,0 +1,25 @@
+attrs==22.1.0
+colorama==0.4.5
+coverage==6.4.4
+cycler==0.11.0
+fonttools==4.37.1
+iniconfig==1.1.1
+kiwisolver==1.4.4
+matplotlib==3.5.3
+numpy==1.23.2
+packaging==21.3
+Pillow==9.2.0
+pluggy==1.0.0
+py==1.11.0
+pyparsing==3.0.9
+pytest==7.1.3
+pytest-cov==3.0.0
+pytest-randomly==3.12.0
+pytest-repeat==0.9.1
+pytest-socket==0.5.1
+pytest-sugar==0.9.5
+python-dateutil==2.8.2
+six==1.16.0
+termcolor==2.0.1
+-e git+https://github.com/AdziaMichalak/Test_automation.git@6d3f398317c4a980970614ffff0c34b14da4d0a3#egg=tic_tac_toe&subdirectory=tic_tac_toe
+tomli==2.0.1

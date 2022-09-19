@@ -1,0 +1,15 @@
+[coverage:run]
+include = 
+        src/*
+
+[coverage:report]
+show_missing = true
+exclude_lines =
+    def __repr__
+
+[coverage:html]
+directory = docs/coverage
+
+[tool:pytest]
+addopts = 
+        --cov=src
